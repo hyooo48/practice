@@ -1,0 +1,111 @@
+.top{
+    height:80px;
+    background-color: black;
+    color:white;
+    border: 1px solid red;
+  }
+  
+  .logo{
+    width:150px;
+    margin-left:150px;
+    margin-top:15px;
+    border: 1px solid red;
+  }
+  
+  .navbar{
+    float:right;
+    margin-right:150px;
+    margin-top:30px;
+    font-size:12.5pt;
+    text-align:center;
+    font-weight:bold;
+    border: 1px solid red;
+  }
+  
+  .nav-item{
+    text-decoration: none;
+    color:white;
+    padding:30px;
+    border: 1px solid red;
+  }
+  
+  .nav-item:hover{
+    text-decoration :#1ed760;
+    border: 1px solid red;
+  }
+  
+  .button-style{
+    border-radius: 24px;
+    background-color: #1ed760;
+    color:rgb(41, 65, 171);
+    border:0px;
+    width:200px;
+    height: 50px;
+    text-align:center;
+    border: 1px solid red;
+  }
+  
+  .button-font{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:13pt;
+    border: 1px solid red;
+  }
+  
+  .footer{
+    position: relative;
+    bottom:50px;
+    margin-right:40px;
+    border: 1px solid red;
+  }
+  
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    margin-right:60px;
+    border: 1px solid red;
+    margin-top:50px;
+  }
+  
+  .bottom2{
+    display:flex;
+    border: 1px solid red;
+  }
+  
+  .bottom-logo{
+    height: 40px;
+    margin-right:60px;
+    margin-top:50px;
+    border: 1px solid red;
+  }
+  
+  .bottom-top-font{
+    color:gray;
+    font-weight: bold;
+    border: 1px solid red;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-font{
+    text-decoration: none;
+    margin:7px;
+    margin-left:0px;
+    border: 1px solid red;
+    color:white;
+  }
+  
+  .footer-font{
+    text-decoration: none;
+    color:gray;
+    margin-right:30px;
+  }
+  
+  .big-bottom{
+    background-color: black;
+    border: 1px solid red;
+    height:400px;
+  }
+  
+  .sns-logo{
+    color:white;
+  }
