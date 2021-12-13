@@ -1,0 +1,175 @@
+body{
+    margin:0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color:white;
+  }
+  nav{
+    height:80px;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  main{
+    height:969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer{
+    height:530px;
+    background-color: black;
+  }
+  
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #1ed760;
+  }
+  
+  .nav-item{
+    padding:28px 17px;
+    font-weight: 700;
+  }
+  
+  
+  
+  .headline{
+    font-size: 146px;
+    font-weight: 900;
+    color: #1ed760;
+    position:relative;
+    left:225px;
+    padding-bottom: 40px;
+  }
+  
+  .headline-first{
+    position:relative;
+    left:-2.5em;
+  }
+  
+  .sub-headline{
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  
+  .button-area{
+    text-align:center;
+  }
+  
+  .button-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+  }
+  
+  .button-style:hover{
+    transform: scale(1.05)
+  }
+  
+  /* 여기서부터 나 혼자 함*/
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .big-box{
+    width:1170px;
+    border:1px solid yellow;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  
+  .mom{
+    display: flex;
+    justify-content: space-between;
+    width:60%
+      
+  }
+  
+  .sns{
+    width:40%;
+    border:1px solid red;
+    
+  }
+  
+  .sns-image{
+    height: 24px;
+  }
+  
+  .USA{
+    text-align:right;
+    border:1px solid orange;
+  }
+  
+  .column{
+    display: flex;
+    flex-direction:column;
+    border:1px solid green;
+    height:363px;
+  }
+  
+  .last-box-font{
+    margin:10px;
+  }
+  
+  .last-box{
+    border:1px solid orange;
+  
+    margin-top: 12px;
+    
+  }
+  
+  .red-box{
+    display:flex;
+  }
+  
+  .right{
+    float:right;
+  }
+  
+  .sns-style{
+    width:54px;
+    height:54px;
+    background-color: #222322;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+  }
+  
+  .sns-box{
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:90px;
+  }
+  
+  .text-style{
+    margin:10px 0px;
+  }
+  
+  .sub-title{
+    color: #919496;
+    font-weight: 900;
+  }
