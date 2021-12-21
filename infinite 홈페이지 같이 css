@@ -1,0 +1,62 @@
+.btn-outline-success{
+  border-color:#006536;
+  color: #006536;
+}
+
+.btn-outline-success:hover{
+  background-color: #006536;
+  border-color:#006536;
+}
+
+.btn-dark{
+  width:200px;
+  background-color: #006536;
+}
+
+.btn-dark:hover{
+  background-color: #006536;
+  transform:scale(1.02);
+}
+
+.text{
+  text-align:center;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+
+footer{
+  background-color: black;
+  color:white;
+}
+
+.first-line{
+  border-bottom:1px solid #006536;
+}
+
+.second-line a {
+  color:white;
+  text-decoration: none;
+}
+
+.third-line{
+  display:none;
+}
+
+@media screen and (max-width:48rem){
+  .first-line{
+    text-align: center;
+  }
+  .second-line{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom:1px solid #006536;
+    text-align: center;
+  }
+  .third-line{
+    display:block;
+  }
+}
